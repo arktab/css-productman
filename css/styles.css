@@ -23,6 +23,13 @@ body{
 	margin: 0 auto;
 	position: relative;
 }
+header a{
+	color: #303030;
+	text-decoration: none;
+}
+a:hover{
+	color:#e10011;
+}
 .main-menu{
 	display: block;
 	width: 100%;
@@ -61,6 +68,10 @@ letter-spacing: 0.45px;
 	color: #303030;
 	text-decoration: none;
 }
+.nav-menu li a:hover{
+	color: #e10011;
+}
+
 .menu-img-button{
 	width: 17px;
 	height: 14px;
@@ -103,7 +114,7 @@ line-height: 36px;
 letter-spacing: 0.6px;
 }
 .head-link{
-color: #e10011;
+color: #303030;
 font-family: Roboto;
 font-size: 24px;
 font-weight: 700;
