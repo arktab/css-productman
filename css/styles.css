@@ -232,10 +232,18 @@ a:hover{
 	bottom: 14.98%;
 
 }
+/*  why doesnt work?
 .hover-text p:last-child::after{
+	content: '';
 	border-bottom: 5px solid #fff;
-
+}*/
+.border_bottom{
+	width: 	45%;
+	padding-bottom:10px;
+	border-bottom: 5px solid #fff;
 }
+
+
 .product:hover .hover-backgroung{
 	right:0;
 }
