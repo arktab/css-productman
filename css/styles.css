@@ -6,10 +6,9 @@
 	box-sizing: border-box;
 	transition: all .3s;
 }
-body{
-	background: #eeeeee;
-}
+
 .container{
+	background: #eeeeee;
 	width: 1500px;
 	height: 2665px;
 	min-width: 800px;
@@ -34,7 +33,8 @@ a:hover{
 	display: block;
 	width: 100%;
 	height: 40px;
-	margin: 40px 0 40px 0;
+	margin-bottom:60px;
+	padding-top: 60px;
 
 }
 .name{
