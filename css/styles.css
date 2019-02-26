@@ -122,11 +122,12 @@ a:hover{
 	text-decoration: none;
 }
 .three-dots{
-	width: 6%;
+	width: 100px;
 	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
 }
 .three-dots a{
-	margin: 0 5px 0 5px ;
 }
 .dots{
 	display: inline-block;
@@ -320,48 +321,11 @@ button:hover{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*foofer*/
 .copyright{
 	margin: 100px auto;
-	width: 600px;
-	height: 18px;
+	width: 50%;
+	text-align: center;
 	color: #979797;
 	font-family: Raleway;
 	font-size: 18px;
