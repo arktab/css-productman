@@ -147,7 +147,9 @@ text-decoration: none;
 /*featured-product*/
 .featured-product{
 	background: #FFF;
-	border-radius: 5px;
+	width: 1200px;
+	height: 1200px;
+	margin: 100px auto;
 }
 /*title style*/
 .front-title{
@@ -201,6 +203,7 @@ text-align: center;
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
+	border-radius: 5px;
 }
 .product img{
 
