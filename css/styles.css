@@ -4,7 +4,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
+	transition: all .3s;
 }
 body{
 	background: #eeeeee;
@@ -38,16 +38,16 @@ a:hover{
 
 }
 .name{
-color: #303030;
-font-family: "Roboto";
-font-size: 48px;
-font-weight: 900;
-line-height: 27px;
-letter-spacing: 1.2px;
-float:left;
+	color: #303030;
+	font-family: "Roboto";
+	font-size: 48px;
+	font-weight: 900;
+	line-height: 27px;
+	letter-spacing: 1.2px;
+	float:left;
 }
 .nav-menu{
-float:right;
+	float:right;
 	font-size: 0;
 	list-style: none;
 }
@@ -55,14 +55,14 @@ float:right;
 	clear:both;
 }
 .nav-menu li{
-float: left;
-padding-left: 45px;
-color: #303030;
-font-family: 'Roboto', sans-serif;
-font-size: 18px;
-font-weight: 400;
-line-height: 27px;
-letter-spacing: 0.45px;
+	float: left;
+	padding-left: 45px;
+	color: #303030;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+	letter-spacing: 0.45px;
 }
 .nav-menu li a{
 	color: #303030;
@@ -96,30 +96,30 @@ letter-spacing: 0.45px;
 	padding-left: 100px;
 }
 .headline{
-color: #303030;
-font-family: "Raleway";
-font-size: 150px;
-font-weight: 900;
-line-height: 150px;
-text-transform: uppercase;
-letter-spacing: 3.75px;
+	color: #303030;
+	font-family: "Raleway";
+	font-size: 150px;
+	font-weight: 900;
+	line-height: 150px;
+	text-transform: uppercase;
+	letter-spacing: 3.75px;
 }
 .header-text{
-color: #303030;
-font-family: Roboto;
-font-size: 24px;
-font-weight: 300;
-line-height: 36px;
-letter-spacing: 0.6px;
+	color: #303030;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 36px;
+	letter-spacing: 0.6px;
 }
 .head-link{
-color: #303030;
-font-family: Roboto;
-font-size: 24px;
-font-weight: 700;
-line-height: 36px;
-letter-spacing: 0.6px;
-text-decoration: none;
+	color: #303030;
+	font-family: Roboto;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	letter-spacing: 0.6px;
+	text-decoration: none;
 }
 .three-dots{
 	width: 6%;
@@ -130,11 +130,11 @@ text-decoration: none;
 }
 .dots{
 	display: inline-block;
-    width: 10px;
-    height: 10px;
-    background-color: #303030;
-    border-radius: 50%;
-    transform: translateY(-50%);
+	width: 10px;
+	height: 10px;
+	background-color: #303030;
+	border-radius: 50%;
+	transform: translateY(-50%);
 
 }
 
@@ -153,21 +153,21 @@ text-decoration: none;
 }
 /*title style*/
 .front-title{
-color: #303030;
-font-family: "Raleway";
-font-size: 48px;
-font-weight: 700;
-letter-spacing: 1.2px;
-padding-top: 30px;
+	color: #303030;
+	font-family: "Raleway";
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: 1.2px;
+	padding-top: 30px;
 }
 .front-title-text{
-color: #303030;
-font-family: "Raleway";
-font-size: 18px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.45px;
-text-align: center;
+	color: #303030;
+	font-family: "Raleway";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.45px;
+	text-align: center;
 }
 .grid-title{
 	display: flex;
@@ -204,11 +204,172 @@ text-align: center;
 	width: 100%;
 	overflow: hidden;
 	border-radius: 5px;
+	position: relative;
 }
 .product img{
-
-	height: 120%;
+	height: 100%;
 	width: auto;
 	object-fit: cover;
-	background: #eeeeee;
+
+}
+.hover-backgroung{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(225,0,17, 1);
+	right: 100%;
+	top: 0;
+}
+.hover-text{
+	position: absolute;
+	color: #ffffff;
+	font-family: "Roboto";
+	font-size: 30px;
+	font-weight: 700;
+	left: 11.28%;
+	bottom: 14.98%;
+
+}
+.hover-text p:last-child::after{
+	border-bottom: 5px solid #fff;
+
+}
+.product:hover .hover-backgroung{
+	right:0;
+}
+/*NEWS ssection*/
+.news{
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+.news-title{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.news-title-header{
+	color: #303030;
+	font-family: "Raleway";
+	font-size: 48px;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+}
+.news-text{
+	padding: 10px 0 30px;
+	color: #303030;
+	font-family: "Raleway";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.45px;
+}
+/*NEWS input EMAIL*/
+.email-wraper{
+	margin: 0 auto;
+	text-align: center;
+	width: 58%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+.email-input, button{
+	border: none;
+	line-height: 70px;
+
+}
+.email-input{
+	width: 70%;
+	border-radius: 50px 0 0 50px;
+
+
+}
+.email-input::placeholder{
+	padding-left: 25px;
+	color: #979797;
+	font-family: "Raleway";
+	font-size: 18px;
+	line-height: 40px;
+	font-weight: 400;
+	font-style: italic;
+	letter-spacing: 0.45px;
+}
+
+button{
+	width: 30%;
+	border-radius: 0  50px 50px  0;
+	background: #e10011;
+	/*font style*/
+
+	color: #ffffff;
+	font-family: "Roboto";
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+button span{
+	font-family: "FontAwesome";
+}
+button:hover{
+	background: #979797;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*foofer*/
+.copyright{
+	margin: 100px auto;
+	width: 600px;
+	height: 18px;
+	color: #979797;
+	font-family: Raleway;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0.45px;
+}
+.copyright span{
+	color: #303030;
+	letter-spacing: 0.45px;
 }
