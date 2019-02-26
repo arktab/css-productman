@@ -162,6 +162,7 @@ a:hover{
 	padding-top: 30px;
 }
 .front-title-text{
+	width: 55%;
 	color: #303030;
 	font-family: "Raleway";
 	font-size: 18px;
@@ -286,6 +287,7 @@ a:hover{
 .email-input{
 	width: 70%;
 	border-radius: 50px 0 0 50px;
+	padding: 10px;
 
 
 }
