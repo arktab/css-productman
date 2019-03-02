@@ -280,12 +280,11 @@ a:hover{
 /*NEWS input EMAIL*/
 .email-wraper{
 	margin: 0 auto;
-	text-align: center;
+	/* text-align: center; */
 	width: 58%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-
 }
 .email-input, button{
 	border: none;
@@ -293,11 +292,13 @@ a:hover{
 
 }
 .email-input{
+	font-size: 24px;
+	outline: none;
+	height: 70px;
+	/* font-size: 70px; */
 	width: 70%;
 	border-radius: 50px 0 0 50px;
 	padding: 10px;
-
-
 }
 .email-input::placeholder{
 	padding-left: 25px;
